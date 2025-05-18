@@ -1,0 +1,172 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #111827;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.logo img {
+  height: 24px;
+}
+
+.nav-links a {
+  margin: 0 16px;
+  text-decoration: none;
+  color: #374151;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.login {
+  font-size: 14px;
+  text-decoration: none;
+  color: #374151;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #E5E7EB; /* engil kulrang chiziq */
+}
+
+
+/* Navbar ichidagi get-started-btn */
+.navbar .get-started-btn {
+  background-color: #408CFF1A;
+  color: #4058FF;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Hero ichidagi get-started-btn */
+.hero .get-started-btn {
+  background-color: #4F46E5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.hero-left {
+  max-width: 500px;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  font-size: 16px;
+  color: #6B7280;
+  margin-bottom: 20px;
+}
+
+.hero-right img {
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Mid Text Section */
+.mid-text {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.mid-text h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.mid-text p {
+  font-size: 14px;
+  color: #6B7280;
+}
+
+/* Info Section */
+.info-section {
+  background-color: #4058FF;
+  color: white;
+  padding: 60px 40px;
+  border-radius: 12px;
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.info-left {
+  max-width: 500px;
+}
+
+.info-left h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.info-left p {
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.embed-text {
+  color: #DBEAFE;
+}
+
+.social-icons img {
+  margin-top: 12px;
+  width: 160px;
+}
+
+.info-right {
+  max-width: 500px;
+  flex: 1;
+}
+
+.cards-img {
+  width: 100%;
+  border-radius: 8px;
+}
